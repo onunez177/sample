@@ -1,16 +1,18 @@
 [MANIFEST]
-	version = '1.0'
+	version = "1.0"
 
 [PLUGIN]
-	name = 'plgLavaboomSample'
-	type = 'angular'
-	version = '1.0'
-	belongsTo = 'Utils'
-	description = 'Sample plugin'
+	name = "plgLavaboomSample"
+	type = "angular"
+	version = "1.0"
+	belongsTo = "LavaUtils"
+	description = "Sample plugin"
 
-    dependencies = [
-    ]
+	moduleName = "LavaUtils"
 
-    productionOnlyDependencies = [
-		'plugin-templates'
+	dependencies = [
+	]
+
+	productionOnlyDependencies = [
+		"plugin-templates"
 	]
