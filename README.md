@@ -4,10 +4,13 @@ Sample plugin
 ## General information
 
 Each plugin sits in a separate repo,
+
 https://github.com/lavab-plugins/[plugin-name]
+
 https://github.com/lavab/web-[plugin-name]
 
 plugins from https://github.com/lavab-plugins/ can be referenced by name instead of specifying the full plugin url
+
 
 ## Internal structure
 
@@ -40,6 +43,7 @@ translations - groups of toml translation files with names of `[lang_code].toml`
 less - styles global for plugin
 
 img - images
+
 
 ## Plugin manifest file
 
