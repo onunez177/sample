@@ -1,0 +1,16 @@
+[MANIFEST]
+	version = '1.0'
+
+[PLUGIN]
+	name = 'plgLavaboomSample'
+	type = 'angular'
+	version = '1.0'
+	belongsTo = 'Utils'
+	description = 'Sample plugin'
+
+    dependencies = [
+    ]
+
+    productionOnlyDependencies = [
+		'plugin-templates'
+	]
