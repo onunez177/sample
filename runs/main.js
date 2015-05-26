@@ -3,11 +3,11 @@ module.exports = ($translate) => {
 
 	const setProgress = loader.setProgress;
 	loader.setProgress = (text, progress) => {
-		setProgress($translate.instant('PLUGIN.SAMPLE.TEXT') + '!' + window.sum(1,2), progress);
+		setProgress($translate.instant('PLUGIN.SAMPLE.TEXT'), progress);
 	};
 
 	const incProgress = loader.incProgress;
 	loader.incProgress = (text, progress) => {
-		incProgress($translate.instant('PLUGIN.SAMPLE.TEXT') + '!' + window.sum(1,2), progress);
+		incProgress($translate.instant('PLUGIN.SAMPLE.TEXT'), progress);
 	};
 };
