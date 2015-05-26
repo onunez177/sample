@@ -16,3 +16,7 @@
 	productionOnlyDependencies = [
 		"plugin-templates"
 	]
+
+	vendorDependencies = [
+		"vendor@test.js"
+	]

@@ -1,0 +1,6 @@
+[LANG]
+	CODE = "en"
+	FULL_CODE = "en_US"
+
+[PLUGIN.SAMPLE]
+	TEXT = "Hey there ;)"

@@ -1,13 +1,13 @@
-module.exports = () => {
+module.exports = ($translate) => {
 	let loader = window.loader;
 
 	const setProgress = loader.setProgress;
 	loader.setProgress = (text, progress) => {
-		setProgress(';)', progress);
+		setProgress($translate.instant('PLUGIN.SAMPLE.TEXT') + '!' + window.sum(1,2), progress);
 	};
 
 	const incProgress = loader.incProgress;
 	loader.incProgress = (text, progress) => {
-		incProgress('o_O', progress);
+		incProgress($translate.instant('PLUGIN.SAMPLE.TEXT') + '!' + window.sum(1,2), progress);
 	};
 };
